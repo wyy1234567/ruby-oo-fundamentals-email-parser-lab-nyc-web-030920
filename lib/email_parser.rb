@@ -13,6 +13,6 @@ class EmailAddressParser
   
   
   def parse 
-    @arr = @email_list.split.join(' ')
+    @email_list.split.unique
   end
 end
