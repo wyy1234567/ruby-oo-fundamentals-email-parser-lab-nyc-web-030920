@@ -13,6 +13,6 @@ class EmailAddressParser
   
   
   def parse 
-    @email_list.split(',' | ' ').uniq
+    @email_list.split(/, | /).uniq
   end
 end
